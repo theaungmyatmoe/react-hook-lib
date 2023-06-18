@@ -1,1 +1,1 @@
-export {useBoolean} from "./useBoolean";
+export {useBoolean} from "./array/useBoolean";
