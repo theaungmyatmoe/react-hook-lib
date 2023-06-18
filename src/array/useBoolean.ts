@@ -1,4 +1,5 @@
 import {Dispatch, SetStateAction, useCallback, useMemo, useState} from "react";
+import {useStateFull} from "../state/useStateFull";
 
 type UseBooleanFunction = (initial: boolean) => [boolean, UseBooleanActions]
 
@@ -10,7 +11,7 @@ export type UseBooleanActions = {
 }
 
 export const useBoolean: UseBooleanFunction = (initial) => {
-  const [boolean, setValue] = useState(initial)
+  const [boolean, setValue] = useStateFull(initial)
   const toggle = useCallback(() => setValue(bool => !bool), [])
   const setTrue = useCallback(() => setValue(true), [])
   const setFalse = useCallback(() => setValue(false), [])
