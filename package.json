@@ -2,7 +2,7 @@
   "name": "react-hook-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
