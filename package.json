@@ -1,5 +1,5 @@
 {
-  "name": "react-hanger-course",
+  "name": "react-hook-lib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@testing-library/react-hooks": "^8.0.1",
